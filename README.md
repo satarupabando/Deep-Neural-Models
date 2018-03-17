@@ -1,14 +1,8 @@
-# Deep Learning From Scratch
+# Deep Learning Models From Scratch
 ## Introduction
 This repository stores a series of reproductions of deep learning milestones in Computer Vision.
 
-For obvious reason, I'm unable to train the model on ImageNet from scratch. Therefore, for the image classification task, all the models are trained on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html), whose images are rescaled to be as large as those described in the original papers.
-
 If my model achieves comparable performance in both accuracy and speed with the corresponding model given in the model zoo without pre-trained weight under the same setting in the first three epochs, I consider it is a valid reproduction.
-
-**Stars are welcomed!**
-
-I guess no one will read my code line by line. LOL.
 
 ## Image Classification
 * [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
